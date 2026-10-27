@@ -1,0 +1,16 @@
+@use "./variable" as *;
+
+body {
+  font-family: Arial, sans-serif;
+  color: $dark;
+  background-color: $background;
+}
+
+.page {
+  padding: 48px 0 32px;
+
+  .container {
+    padding-bottom: 32px;
+    border-bottom: 2px solid $border;
+  }
+}
